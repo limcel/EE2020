@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Oct 10 14:11:26 2017
+# Process ID: 5976
+# Current directory: D:/MyWork
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4668
+# Log file: D:/MyWork/vivado.log
+# Journal file: D:/MyWork\vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project Week8Project D:/MyWork/Week8Project -part xc7a35tcpg236-1
+file mkdir D:/MyWork/Week8Project/Week8Project.srcs/sources_1/new
+close [ open D:/MyWork/Week8Project/Week8Project.srcs/sources_1/new/week8_clock.v w ]
+add_files D:/MyWork/Week8Project/Week8Project.srcs/sources_1/new/week8_clock.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+remove_files D:/MyWork/Week8Project/Week8Project.srcs/sources_1/new/week8_clock.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
