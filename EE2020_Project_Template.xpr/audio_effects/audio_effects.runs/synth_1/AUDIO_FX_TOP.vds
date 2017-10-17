@@ -2,12 +2,12 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Tue Oct 10 16:40:08 2017
-# Process ID: 1616
-# Current directory: D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.runs/synth_1
+# Start of session at: Tue Oct 17 18:46:20 2017
+# Process ID: 9508
+# Current directory: C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.runs/synth_1
 # Command line: vivado.exe -log AUDIO_FX_TOP.vds -mode batch -messageDb vivado.pb -notrace -source AUDIO_FX_TOP.tcl
-# Log file: D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.runs/synth_1/AUDIO_FX_TOP.vds
-# Journal file: D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.runs/synth_1\vivado.jou
+# Log file: C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.runs/synth_1/AUDIO_FX_TOP.vds
+# Journal file: C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source AUDIO_FX_TOP.tcl -notrace
 Command: synth_design -top AUDIO_FX_TOP -part xc7a35tcpg236-1
@@ -15,22 +15,26 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 6248 
+INFO: Helper process launched with PID 9316 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 273.320 ; gain = 65.156
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 272.563 ; gain = 65.773
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'AUDIO_FX_TOP' [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:14]
-INFO: [Synth 8-638] synthesizing module 'clk_20k' [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/clk_20k.v:23]
-INFO: [Synth 8-256] done synthesizing module 'clk_20k' (1#1) [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/clk_20k.v:23]
-INFO: [Synth 8-638] synthesizing module 'clk_50M' [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/clk_50M.v:23]
-INFO: [Synth 8-256] done synthesizing module 'clk_50M' (2#1) [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/clk_50M.v:23]
-INFO: [Synth 8-638] synthesizing module 'SPI' [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/SPI.v:20]
-INFO: [Synth 8-256] done synthesizing module 'SPI' (3#1) [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/SPI.v:20]
-INFO: [Synth 8-638] synthesizing module 'DA2RefComp' [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/imports/audio_effects.srcs/DA2CompRef.vhd:59]
-INFO: [Synth 8-256] done synthesizing module 'DA2RefComp' (4#1) [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/imports/audio_effects.srcs/DA2CompRef.vhd:59]
-INFO: [Synth 8-256] done synthesizing module 'AUDIO_FX_TOP' (5#1) [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:14]
+INFO: [Synth 8-638] synthesizing module 'AUDIO_FX_TOP' [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:14]
+INFO: [Synth 8-638] synthesizing module 'clock' [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/clock.v:23]
+INFO: [Synth 8-638] synthesizing module 'freq_to_m' [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/freq_to_m.v:23]
+INFO: [Synth 8-256] done synthesizing module 'freq_to_m' (1#1) [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/freq_to_m.v:23]
+INFO: [Synth 8-638] synthesizing module 'general_clock' [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/general_clock.v:23]
+INFO: [Synth 8-256] done synthesizing module 'general_clock' (2#1) [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/general_clock.v:23]
+INFO: [Synth 8-256] done synthesizing module 'clock' (3#1) [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/clock.v:23]
+INFO: [Synth 8-638] synthesizing module 'SPI' [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/SPI.v:20]
+INFO: [Synth 8-256] done synthesizing module 'SPI' (4#1) [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/SPI.v:20]
+WARNING: [Synth 8-85] always block has no event control specified [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:53]
+WARNING: [Synth 8-689] width (32) of port connection 'freq_input' does not match port width (24) of module 'clock' [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:69]
+INFO: [Synth 8-638] synthesizing module 'DA2RefComp' [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/imports/audio_effects.srcs/DA2CompRef.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'DA2RefComp' (5#1) [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/imports/audio_effects.srcs/DA2CompRef.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'AUDIO_FX_TOP' (6#1) [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:14]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 310.785 ; gain = 102.621
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 309.926 ; gain = 103.137
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -39,125 +43,52 @@ Report Check Netlist:
 +------+------------------+-------+---------+-------+------------------+
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
-WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[11] to constant 0 [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:57]
-WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[10] to constant 0 [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:57]
-WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[9] to constant 0 [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:57]
-WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[8] to constant 0 [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:57]
-WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[7] to constant 0 [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:57]
-WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[6] to constant 0 [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:57]
-WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[5] to constant 0 [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:57]
-WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[4] to constant 0 [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:57]
-WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[3] to constant 0 [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:57]
-WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[2] to constant 0 [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:57]
-WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[1] to constant 0 [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:57]
-WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[0] to constant 0 [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:57]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[11] to constant 0 [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:149]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[10] to constant 0 [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:149]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[9] to constant 0 [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:149]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[8] to constant 0 [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:149]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[7] to constant 0 [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:149]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[6] to constant 0 [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:149]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[5] to constant 0 [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:149]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[4] to constant 0 [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:149]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[3] to constant 0 [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:149]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[2] to constant 0 [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:149]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[1] to constant 0 [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:149]
+WARNING: [Synth 8-3295] tying undriven pin u2:DATA2[0] to constant 0 [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:149]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 310.785 ; gain = 102.621
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 309.926 ; gain = 103.137
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc]
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[0]'. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:47]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:47]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[0]'. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:48]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:48]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[1]'. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:49]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:49]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[1]'. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:50]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:50]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[2]'. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:51]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:51]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[2]'. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:52]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:52]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[3]'. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:53]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:53]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[3]'. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:54]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:54]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[4]'. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:55]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:55]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[4]'. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:56]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:56]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[5]'. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:57]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:57]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[5]'. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:58]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:58]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[6]'. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:59]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:59]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[6]'. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:60]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:60]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[7]'. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:61]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:61]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[7]'. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:62]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:62]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[8]'. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:63]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:63]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[8]'. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:64]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:64]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[9]'. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:65]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:65]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[9]'. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:66]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:66]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[10]'. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:67]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:67]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[10]'. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:68]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:68]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[11]'. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:69]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:69]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'MIC_in[11]'. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:70]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc:70]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-Finished Parsing XDC File [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/AUDIO_FX_TOP_propImpl.xdc].
+Parsing XDC File [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/constrs_1/imports/Learn/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/AUDIO_FX_TOP_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/AUDIO_FX_TOP_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 598.945 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 599.148 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 598.945 ; gain = 390.781
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 599.148 ; gain = 392.359
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 598.945 ; gain = 390.781
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 599.148 ; gain = 392.359
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 598.945 ; gain = 390.781
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 599.148 ; gain = 392.359
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-5546] ROM "pulse0" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "pulse0" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'DA2RefComp'
 INFO: [Synth 8-5544] ROM "DONE" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
@@ -171,9 +102,11 @@ INFO: [Synth 8-5544] ROM "DONE" won't be mapped to Block RAM because address siz
 *
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'sequential' in module 'DA2RefComp'
+WARNING: [Synth 8-327] inferring latch for variable 'instrumentfreq_reg' [C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.srcs/sources_1/new/AUDIO_FX_TOP.v:55]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 598.945 ; gain = 390.781
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 599.148 ; gain = 392.359
 ---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'clock_instant_20k' (clock) to 'clock_instant_volume'
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -185,20 +118,22 @@ Start RTL Component Statistics
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input     12 Bit       Adders := 2     
+	   2 Input     21 Bit       Adders := 3     
+	   2 Input     16 Bit       Adders := 1     
 	   2 Input      4 Bit       Adders := 1     
 +---Registers : 
-	               16 Bit    Registers := 2     
-	               12 Bit    Registers := 3     
+	               16 Bit    Registers := 5     
+	               12 Bit    Registers := 1     
 	                4 Bit    Registers := 1     
-	                1 Bit    Registers := 3     
+	                1 Bit    Registers := 4     
 +---Muxes : 
-	   2 Input     16 Bit        Muxes := 2     
-	   2 Input     12 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 5     
+	   7 Input     10 Bit        Muxes := 1     
 	   5 Input      2 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 5     
 	   3 Input      1 Bit        Muxes := 2     
 	   4 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -206,25 +141,25 @@ Finished RTL Component Statistics
 Start RTL Hierarchical Component Statistics 
 ---------------------------------------------------------------------------------
 Hierarchical RTL Component report 
-Module clk_20k 
+Module AUDIO_FX_TOP 
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input     12 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
 +---Registers : 
-	               12 Bit    Registers := 1     
-	                1 Bit    Registers := 1     
+	               16 Bit    Registers := 3     
 +---Muxes : 
-	   2 Input     12 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 1     
-Module clk_50M 
+	   2 Input     16 Bit        Muxes := 3     
+	   7 Input     10 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+Module freq_to_m 
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input     12 Bit       Adders := 1     
+	   2 Input     21 Bit       Adders := 1     
+Module general_clock 
+Detailed RTL Component Info : 
 +---Registers : 
-	               12 Bit    Registers := 1     
 	                1 Bit    Registers := 1     
 +---Muxes : 
-	   2 Input     12 Bit        Muxes := 1     
 	   2 Input      1 Bit        Muxes := 1     
 Module SPI 
 Detailed RTL Component Info : 
@@ -256,16 +191,17 @@ BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 598.945 ; gain = 390.781
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 599.148 ; gain = 392.359
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-5546] ROM "clk_20kInstance/pulse0" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "clk_50kInstance/pulse0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "general_clock_instant/pulse0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "general_clock_instant/pulse0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "general_clock_instant/pulse0" won't be mapped to RAM because it is too sparse
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 598.945 ; gain = 390.781
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 599.148 ; gain = 392.359
 ---------------------------------------------------------------------------------
-Finished Parallel Reinference  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 598.945 ; gain = 390.781
+Finished Parallel Reinference  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 599.148 ; gain = 392.359
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -275,6 +211,29 @@ Report RTL Partitions:
 ---------------------------------------------------------------------------------
 Start Area Optimization
 ---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'instrumentfreq_reg[20]' (LD) to 'instrumentfreq_reg[10]'
+INFO: [Synth 8-3886] merging instance 'instrumentfreq_reg[24]' (LD) to 'instrumentfreq_reg[10]'
+INFO: [Synth 8-3886] merging instance 'instrumentfreq_reg[25]' (LD) to 'instrumentfreq_reg[10]'
+INFO: [Synth 8-3886] merging instance 'instrumentfreq_reg[26]' (LD) to 'instrumentfreq_reg[10]'
+INFO: [Synth 8-3886] merging instance 'instrumentfreq_reg[27]' (LD) to 'instrumentfreq_reg[10]'
+INFO: [Synth 8-3886] merging instance 'instrumentfreq_reg[28]' (LD) to 'instrumentfreq_reg[10]'
+INFO: [Synth 8-3886] merging instance 'instrumentfreq_reg[29]' (LD) to 'instrumentfreq_reg[10]'
+INFO: [Synth 8-3886] merging instance 'instrumentfreq_reg[30]' (LD) to 'instrumentfreq_reg[10]'
+INFO: [Synth 8-3886] merging instance 'instrumentfreq_reg[31]' (LD) to 'instrumentfreq_reg[10]'
+INFO: [Synth 8-3886] merging instance 'instrumentfreq_reg[21]' (LD) to 'instrumentfreq_reg[10]'
+INFO: [Synth 8-3886] merging instance 'instrumentfreq_reg[22]' (LD) to 'instrumentfreq_reg[10]'
+INFO: [Synth 8-3886] merging instance 'instrumentfreq_reg[23]' (LD) to 'instrumentfreq_reg[10]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\instrumentfreq_reg[9] )
+INFO: [Synth 8-3886] merging instance 'instrumentfreq_reg[10]' (LD) to 'instrumentfreq_reg[11]'
+INFO: [Synth 8-3886] merging instance 'instrumentfreq_reg[11]' (LD) to 'instrumentfreq_reg[12]'
+INFO: [Synth 8-3886] merging instance 'instrumentfreq_reg[12]' (LD) to 'instrumentfreq_reg[13]'
+INFO: [Synth 8-3886] merging instance 'instrumentfreq_reg[13]' (LD) to 'instrumentfreq_reg[14]'
+INFO: [Synth 8-3886] merging instance 'instrumentfreq_reg[14]' (LD) to 'instrumentfreq_reg[15]'
+INFO: [Synth 8-3886] merging instance 'instrumentfreq_reg[15]' (LD) to 'instrumentfreq_reg[16]'
+INFO: [Synth 8-3886] merging instance 'instrumentfreq_reg[16]' (LD) to 'instrumentfreq_reg[17]'
+INFO: [Synth 8-3886] merging instance 'instrumentfreq_reg[17]' (LD) to 'instrumentfreq_reg[18]'
+INFO: [Synth 8-3886] merging instance 'instrumentfreq_reg[18]' (LD) to 'instrumentfreq_reg[19]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\instrumentfreq_reg[19] )
 WARNING: [Synth 8-3332] Sequential element (u1/temp_reg[15]) is unused and will be removed from module AUDIO_FX_TOP.
 WARNING: [Synth 8-3332] Sequential element (u1/temp_reg[14]) is unused and will be removed from module AUDIO_FX_TOP.
 WARNING: [Synth 8-3332] Sequential element (u1/temp_reg[13]) is unused and will be removed from module AUDIO_FX_TOP.
@@ -306,10 +265,33 @@ WARNING: [Synth 8-3332] Sequential element (u2/clk_counter_reg[24]) is unused an
 WARNING: [Synth 8-3332] Sequential element (u2/clk_counter_reg[25]) is unused and will be removed from module AUDIO_FX_TOP.
 WARNING: [Synth 8-3332] Sequential element (u2/clk_counter_reg[26]) is unused and will be removed from module AUDIO_FX_TOP.
 WARNING: [Synth 8-3332] Sequential element (u2/clk_counter_reg[27]) is unused and will be removed from module AUDIO_FX_TOP.
+WARNING: [Synth 8-3332] Sequential element (instrumentfreq_reg[31]) is unused and will be removed from module AUDIO_FX_TOP.
+WARNING: [Synth 8-3332] Sequential element (instrumentfreq_reg[30]) is unused and will be removed from module AUDIO_FX_TOP.
+WARNING: [Synth 8-3332] Sequential element (instrumentfreq_reg[29]) is unused and will be removed from module AUDIO_FX_TOP.
+WARNING: [Synth 8-3332] Sequential element (instrumentfreq_reg[28]) is unused and will be removed from module AUDIO_FX_TOP.
+WARNING: [Synth 8-3332] Sequential element (instrumentfreq_reg[27]) is unused and will be removed from module AUDIO_FX_TOP.
+WARNING: [Synth 8-3332] Sequential element (instrumentfreq_reg[26]) is unused and will be removed from module AUDIO_FX_TOP.
+WARNING: [Synth 8-3332] Sequential element (instrumentfreq_reg[25]) is unused and will be removed from module AUDIO_FX_TOP.
+WARNING: [Synth 8-3332] Sequential element (instrumentfreq_reg[24]) is unused and will be removed from module AUDIO_FX_TOP.
+WARNING: [Synth 8-3332] Sequential element (instrumentfreq_reg[23]) is unused and will be removed from module AUDIO_FX_TOP.
+WARNING: [Synth 8-3332] Sequential element (instrumentfreq_reg[22]) is unused and will be removed from module AUDIO_FX_TOP.
+WARNING: [Synth 8-3332] Sequential element (instrumentfreq_reg[21]) is unused and will be removed from module AUDIO_FX_TOP.
+WARNING: [Synth 8-3332] Sequential element (instrumentfreq_reg[20]) is unused and will be removed from module AUDIO_FX_TOP.
+WARNING: [Synth 8-3332] Sequential element (instrumentfreq_reg[19]) is unused and will be removed from module AUDIO_FX_TOP.
+WARNING: [Synth 8-3332] Sequential element (instrumentfreq_reg[18]) is unused and will be removed from module AUDIO_FX_TOP.
+WARNING: [Synth 8-3332] Sequential element (instrumentfreq_reg[17]) is unused and will be removed from module AUDIO_FX_TOP.
+WARNING: [Synth 8-3332] Sequential element (instrumentfreq_reg[16]) is unused and will be removed from module AUDIO_FX_TOP.
+WARNING: [Synth 8-3332] Sequential element (instrumentfreq_reg[15]) is unused and will be removed from module AUDIO_FX_TOP.
+WARNING: [Synth 8-3332] Sequential element (instrumentfreq_reg[14]) is unused and will be removed from module AUDIO_FX_TOP.
+WARNING: [Synth 8-3332] Sequential element (instrumentfreq_reg[13]) is unused and will be removed from module AUDIO_FX_TOP.
+WARNING: [Synth 8-3332] Sequential element (instrumentfreq_reg[12]) is unused and will be removed from module AUDIO_FX_TOP.
+WARNING: [Synth 8-3332] Sequential element (instrumentfreq_reg[11]) is unused and will be removed from module AUDIO_FX_TOP.
+WARNING: [Synth 8-3332] Sequential element (instrumentfreq_reg[10]) is unused and will be removed from module AUDIO_FX_TOP.
+WARNING: [Synth 8-3332] Sequential element (instrumentfreq_reg[9]) is unused and will be removed from module AUDIO_FX_TOP.
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 598.945 ; gain = 390.781
+Finished Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 599.148 ; gain = 392.359
 ---------------------------------------------------------------------------------
-Finished Parallel Area Optimization  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 598.945 ; gain = 390.781
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 599.148 ; gain = 392.359
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -323,10 +305,10 @@ Start Timing Optimization
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 598.945 ; gain = 390.781
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 599.148 ; gain = 392.359
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 598.945 ; gain = 390.781
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 599.148 ; gain = 392.359
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -353,17 +335,21 @@ WARNING: [Synth 8-3332] Sequential element (u2/temp2_reg[15]) is unused and will
 WARNING: [Synth 8-3332] Sequential element (u2/temp2_reg[14]) is unused and will be removed from module AUDIO_FX_TOP.
 WARNING: [Synth 8-3332] Sequential element (u2/temp2_reg[13]) is unused and will be removed from module AUDIO_FX_TOP.
 WARNING: [Synth 8-3332] Sequential element (u2/temp2_reg[12]) is unused and will be removed from module AUDIO_FX_TOP.
+WARNING: [Synth 8-3332] Sequential element (max_reg[15]) is unused and will be removed from module AUDIO_FX_TOP.
+WARNING: [Synth 8-3332] Sequential element (max_reg[14]) is unused and will be removed from module AUDIO_FX_TOP.
+WARNING: [Synth 8-3332] Sequential element (max_reg[13]) is unused and will be removed from module AUDIO_FX_TOP.
+WARNING: [Synth 8-3332] Sequential element (max_reg[12]) is unused and will be removed from module AUDIO_FX_TOP.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 598.945 ; gain = 390.781
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 599.148 ; gain = 392.359
 ---------------------------------------------------------------------------------
-Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 598.945 ; gain = 390.781
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 599.148 ; gain = 392.359
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 598.945 ; gain = 390.781
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 599.148 ; gain = 392.359
 ---------------------------------------------------------------------------------
 Start IO Insertion
 ---------------------------------------------------------------------------------
@@ -380,7 +366,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 598.945 ; gain = 390.781
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 599.148 ; gain = 392.359
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -393,7 +379,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 598.945 ; gain = 390.781
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 599.148 ; gain = 392.359
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -405,25 +391,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 598.945 ; gain = 390.781
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 599.148 ; gain = 392.359
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 598.945 ; gain = 390.781
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 599.148 ; gain = 392.359
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 598.945 ; gain = 390.781
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 599.148 ; gain = 392.359
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 598.945 ; gain = 390.781
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 599.148 ; gain = 392.359
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -439,46 +425,53 @@ Report Cell Usage:
 +------+-------+------+
 |      |Cell   |Count |
 +------+-------+------+
-|1     |BUFG   |     1|
-|2     |CARRY4 |     9|
-|3     |LUT1   |    40|
-|4     |LUT2   |     8|
-|5     |LUT3   |     6|
-|6     |LUT4   |    18|
-|7     |LUT5   |     6|
-|8     |LUT6   |    17|
-|9     |FDRE   |    86|
-|10    |IBUF   |     2|
-|11    |OBUF   |     6|
+|1     |BUFG   |     2|
+|2     |CARRY4 |   191|
+|3     |LUT1   |   135|
+|4     |LUT2   |   356|
+|5     |LUT3   |   239|
+|6     |LUT4   |    30|
+|7     |LUT5   |    29|
+|8     |LUT6   |    60|
+|9     |FDRE   |   170|
+|10    |LD     |     9|
+|11    |IBUF   |     9|
+|12    |OBUF   |    22|
 +------+-------+------+
 
 Report Instance Areas: 
-+------+------------------+-----------+------+
-|      |Instance          |Module     |Cells |
-+------+------------------+-----------+------+
-|1     |top               |           |   199|
-|2     |  clk_20kInstance |clk_20k    |    33|
-|3     |  clk_50kInstance |clk_50M    |    32|
-|4     |  u1              |SPI        |    77|
-|5     |  u2              |DA2RefComp |    48|
-+------+------------------+-----------+------+
++------+--------------------------+----------------+------+
+|      |Instance                  |Module          |Cells |
++------+--------------------------+----------------+------+
+|1     |top                       |                |  1252|
+|2     |  clock_instant_20k       |clock           |    63|
+|3     |    general_clock_instant |general_clock_3 |    63|
+|4     |  clock_instant_50M       |clock_0         |    63|
+|5     |    general_clock_instant |general_clock_2 |    63|
+|6     |  clock_instant_tune      |clock_1         |   792|
+|7     |    freq_to_m_instant     |freq_to_m       |   735|
+|8     |    general_clock_instant |general_clock   |    57|
+|9     |  u1                      |SPI             |   103|
+|10    |  u2                      |DA2RefComp      |    48|
++------+--------------------------+----------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 598.945 ; gain = 390.781
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 599.148 ; gain = 392.359
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 47 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 598.945 ; gain = 102.621
-Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 598.945 ; gain = 390.781
+Synthesis finished with 0 errors, 0 critical warnings and 75 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 599.148 ; gain = 103.137
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 599.148 ; gain = 392.359
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 209 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 1 inverter(s) to 12 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
+  A total of 9 instances were transformed.
+  LD => LDCE: 9 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-29 Infos, 83 Warnings, 24 Critical Warnings and 0 Errors encountered.
+55 Infos, 89 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 598.945 ; gain = 390.781
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 598.945 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Tue Oct 10 16:40:32 2017...
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 599.148 ; gain = 392.359
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 599.148 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 17 18:46:51 2017...

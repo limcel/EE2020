@@ -44,15 +44,12 @@ proc step_failed { step } {
 
 set_msg_config -id {HDL 9-1061} -limit 100000
 set_msg_config -id {HDL 9-1654} -limit 100000
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 
 start_step write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
-  set_param xicom.use_bs_reader 1
   open_checkpoint AUDIO_FX_TOP_routed.dcp
-  set_property webtalk.parent_dir D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.cache/wt [current_project]
+  set_property webtalk.parent_dir C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.cache/wt [current_project]
   catch { write_mem_info -force AUDIO_FX_TOP.mmi }
   write_bitstream -force AUDIO_FX_TOP.bit 
   catch { write_sysdef -hwdef AUDIO_FX_TOP.hwdef -bitfile AUDIO_FX_TOP.bit -meminfo AUDIO_FX_TOP.mmi -file AUDIO_FX_TOP.sysdef }

@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Oct 13 13:06:51 2017
+# Process ID: 10412
+# Current directory: C:/Users/Jason/Documents/MyWork/Week8Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5924 C:\Users\Jason\Documents\MyWork\Week8Project\Week8Project.xpr
+# Log file: C:/Users/Jason/Documents/MyWork/Week8Project/vivado.log
+# Journal file: C:/Users/Jason/Documents/MyWork/Week8Project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Jason/Documents/MyWork/Week8Project/Week8Project.xpr
+INFO: [Project 1-313] Project file moved from 'D:/MyWork/Week8Project' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 777.551 ; gain = 112.012
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 13 13:08:41 2017...

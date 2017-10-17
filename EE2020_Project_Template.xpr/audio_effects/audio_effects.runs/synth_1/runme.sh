@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.runs/synth_1'
+HD_PWD='C:/Users/Jason/Documents/MyWork/EE2020_Project_Template.xpr/audio_effects/audio_effects.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
